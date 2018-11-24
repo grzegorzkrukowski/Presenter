@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Presenter_Example' do
+  pod 'Presenter', :path => '../'
+
+  target 'Presenter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
